@@ -14,7 +14,7 @@ class LoginActivity : AppCompatActivity() {
         val entrarButton = findViewById<Button>(R.id.Bt_entrar)
 
         entrarButton.setOnClickListener {
-            val intent = Intent(this, Page1::class.java) // Assuming Page1Activity exists
+            val intent = Intent(this, Page1Activity::class.java) // Assuming Page1Activity exists
             startActivity(intent)
         }
     }
