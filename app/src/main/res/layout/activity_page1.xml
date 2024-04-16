@@ -18,10 +18,9 @@
         app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.615"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ViewQueHarasHoy_plan1"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417" />
 
     <TextView
         android:id="@+id/Descr_plan1"
@@ -35,18 +34,18 @@
         app:layout_constraintHorizontal_bias="0.244"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.453" />
+        app:layout_constraintVertical_bias="0.435" />
 
     <ImageView
-        android:id="@+id/Imagen_aviso"
+        android:id="@+id/Imagen_plan1"
         android:layout_width="192dp"
         android:layout_height="143dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintHorizontal_bias="0.89"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.437"
+        app:layout_constraintVertical_bias="0.411"
         app:srcCompat="@drawable/aviso" />
 
     <ImageView
@@ -80,7 +79,7 @@
         app:layout_constraintVertical_bias="0.153" />
 
     <TextView
-        android:id="@+id/ViewQueHarasHoy_plan1"
+        android:id="@+id/ViewQueHarasHoy_page1"
         android:layout_width="315dp"
         android:layout_height="53dp"
         android:gravity="center"
@@ -105,7 +104,7 @@
         app:layout_constraintHorizontal_bias="0.223"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.535" />
+        app:layout_constraintVertical_bias="0.513" />
 
     <Button
         android:id="@+id/Bt_plan2"
@@ -152,7 +151,7 @@
         app:layout_constraintVertical_bias="0.787" />
 
     <ImageView
-        android:id="@+id/imagen_aviso2"
+        android:id="@+id/imagen_plan2"
         android:layout_width="192dp"
         android:layout_height="143dp"
         app:layout_constraintBottom_toBottomOf="parent"
