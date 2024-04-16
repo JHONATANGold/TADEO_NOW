@@ -10,10 +10,10 @@
 
     <TextView
         android:id="@+id/ViewBienvenido"
-        android:layout_width="407dp"
-        android:layout_height="64dp"
+        android:layout_width="408dp"
+        android:layout_height="86dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:background="#052A4C"
         android:gravity="center"
         android:text="Bienvenido"
