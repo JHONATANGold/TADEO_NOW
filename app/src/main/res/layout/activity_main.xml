@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#133D60"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/ViewBienvenido"
+        android:layout_width="407dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:background="#052A4C"
+        android:gravity="center"
+        android:text="Bienvenido"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TadeoNow"
+        android:layout_width="193dp"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:text="Tadeo Now"
+        android:textColor="#FFFFFF"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
+
+    <Button
+        android:id="@+id/Bt_inicio_sesion"
+        android:layout_width="249dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#052A4C"
+        android:text="INICIAR SESION"
+        android:textSize="20sp"
+        app:cornerRadius="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TadeoNow"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <Button
+        android:id="@+id/Bt_registrarse"
+        android:layout_width="249dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#052A4C"
+        android:text="REGISTRARSE"
+        android:textSize="20sp"
+        app:cornerRadius="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bt_inicio_sesion"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <ImageView
+        android:id="@+id/LogoTadeo"
+        android:layout_width="218dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bt_registrarse"
+        app:srcCompat="@drawable/logoutadeo"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
