@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#133D60"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/LogoTadeo"
+        android:layout_width="141dp"
+        android:layout_height="104dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bt_volver"
+        app:srcCompat="@drawable/logoutadeo"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Bt_volver"
+        android:layout_width="149dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#052A4C"
+        android:text="VOLVER"
+        android:textSize="20sp"
+        app:cornerRadius="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cajaContraseña"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <Button
+        android:id="@+id/Bt_crear_cuenta"
+        android:layout_width="218dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#052A4C"
+        android:text="CREAR CUENTA"
+        android:textSize="20sp"
+        app:cornerRadius="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cajaContraseña"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <EditText
+        android:id="@+id/cajaContraseña"
+        android:layout_width="363dp"
+        android:layout_height="54dp"
+        android:background="#124A74"
+        android:ems="10"
+        android:inputType="text"
+        android:text=" Introduzca la contraseña"
+        android:textColor="#B4C1CC"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ViewRegistrarse"
+        app:layout_constraintVertical_bias="0.496" />
+
+    <TextView
+        android:id="@+id/ViewContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <EditText
+        android:id="@+id/cajaCorreo"
+        android:layout_width="363dp"
+        android:layout_height="54dp"
+        android:background="#124A74"
+        android:ems="10"
+        android:inputType="text"
+        android:text=" Introduzca el nombre"
+        android:textColor="#B4C1CC"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ViewRegistrarse"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <TextView
+        android:id="@+id/ViewCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <TextView
+        android:id="@+id/ViewRegistrarse"
+        android:layout_width="407dp"
+        android:layout_height="64dp"
+        android:background="#052A4C"
+        android:gravity="center"
+        android:text="Registrarse"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/ViewNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <EditText
+        android:id="@+id/cajaNombre"
+        android:layout_width="363dp"
+        android:layout_height="54dp"
+        android:background="#124A74"
+        android:ems="10"
+        android:inputType="text"
+        android:text=" Introduzca el nombre"
+        android:textColor="#B4C1CC"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ViewRegistrarse"
+        app:layout_constraintVertical_bias="0.172" />
+</androidx.constraintlayout.widget.ConstraintLayout>
