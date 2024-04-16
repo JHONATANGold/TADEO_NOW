@@ -13,6 +13,7 @@
         android:layout_height="67dp"
         android:backgroundTint="#052A4C"
         android:text="VOLVER"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:cornerRadius="11dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,6 +28,7 @@
         android:layout_height="67dp"
         android:backgroundTint="#052A4C"
         android:text="ENTRAR"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:cornerRadius="11dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,7 +86,6 @@
         android:id="@+id/cajacorreoiniciarsesion"
         android:layout_width="335dp"
         android:layout_height="56dp"
-        android:layout_marginBottom="452dp"
         android:background="#124A74"
         android:ems="10"
         android:inputType="text"
@@ -93,9 +94,10 @@
         app:cornerRadius="100000dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ViewIniciarSesión"
-        app:layout_constraintVertical_bias="0.739" />
+        app:layout_constraintTop_toTopOf="@+id/ViewIniciarSesión"
+        app:layout_constraintVertical_bias="0.272" />
 
     <TextView
         android:id="@+id/ViewIniciarSesión"

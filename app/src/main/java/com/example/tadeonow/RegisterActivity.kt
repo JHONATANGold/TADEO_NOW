@@ -13,7 +13,6 @@ class RegisterActivity : AppCompatActivity() {
         val volverButton = findViewById<Button>(R.id.Bt_volver)
 
         volverButton.setOnClickListener {
-            // Finish this activity to go back to MainActivity
             finish()
         }
     }

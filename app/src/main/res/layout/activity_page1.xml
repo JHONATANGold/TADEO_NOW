@@ -7,6 +7,18 @@
     android:background="#133D60"
     tools:context=".Page1">
 
+    <ImageButton
+        android:id="@+id/InicioPage1"
+        android:layout_width="70dp"
+        android:layout_height="72dp"
+        android:src="@drawable/house_solid__3_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
     <Button
         android:id="@+id/Bt_plan1"
         android:layout_width="333dp"
@@ -14,6 +26,7 @@
         android:backgroundTint="#94A0A8"
         android:gravity="left"
         android:text="Plan #1"
+        android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -98,6 +111,7 @@
         android:layout_height="50dp"
         android:backgroundTint="#052A4C"
         android:text="ASISTIR"
+        android:textColor="#FFFFFF"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -113,6 +127,7 @@
         android:backgroundTint="#939FA7"
         android:gravity="left"
         android:text="Plan #2"
+        android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -142,6 +157,7 @@
         android:layout_height="50dp"
         android:backgroundTint="#052A4C"
         android:text="ASISTIR"
+        android:textColor="#FFFFFF"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -168,6 +184,7 @@
         android:layout_height="64dp"
         android:backgroundTint="#052A4C"
         android:text="MOSTRAR MÁS"
+        android:textColor="#FFFFFF"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
