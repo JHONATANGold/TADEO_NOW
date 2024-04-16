@@ -13,6 +13,15 @@
         android:theme="@style/Theme.TADEONOW"
         tools:targetApi="31">
         <activity
+            android:name=".Plan1"
+            android:exported="false" />
+        <activity
+            android:name=".activity_page2"
+            android:exported="false" />
+        <activity
+            android:name=".Page1"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
