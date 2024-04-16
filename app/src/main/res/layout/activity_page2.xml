@@ -8,7 +8,7 @@
     tools:context=".activity_page2">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/LogoTadeo_page2"
         android:layout_width="92dp"
         android:layout_height="89dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -16,11 +16,11 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.003"
+        app:layout_constraintVertical_bias="0.006"
         app:srcCompat="@drawable/logoutadeo" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/ViewQueHarasHoy_page2"
         android:layout_width="315dp"
         android:layout_height="53dp"
         android:text="Qué Harás Hoy?"
@@ -28,8 +28,114 @@
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.166" />
+
+    <Button
+        android:id="@+id/Bt_plan3"
+        android:layout_width="333dp"
+        android:layout_height="175dp"
+        android:backgroundTint="#94A0A8"
+        android:gravity="left"
+        android:text="Plan #3"
+        android:textSize="30sp"
+        app:cornerRadius="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33" />
+
+    <TextView
+        android:id="@+id/Descr_plan3"
+        android:layout_width="125dp"
+        android:layout_height="83dp"
+        android:text="HORARIO: CONTENIDO: UBICACIÓN: ASISTENTES:"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <ImageView
+        android:id="@+id/imagen_plan3"
+        android:layout_width="192dp"
+        android:layout_height="142dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332"
+        app:srcCompat="@drawable/aviso" />
+
+    <Button
+        android:id="@+id/Bt_asistir_plan3"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#052A4C"
+        android:text="ASISTIR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439" />
+
+    <Button
+        android:id="@+id/Bt_plan4"
+        android:layout_width="333dp"
+        android:layout_height="175dp"
+        android:backgroundTint="#939FA7"
+        android:gravity="left"
+        android:text="Plan #4"
+        android:textSize="30sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.699" />
+
+    <TextView
+        android:id="@+id/Descr_plan4"
+        android:layout_width="125dp"
+        android:layout_height="83dp"
+        android:text="HORARIO: CONTENIDO: UBICACIÓN: ASISTENTES:"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668" />
+
+    <ImageView
+        android:id="@+id/imagen_plan4"
+        android:layout_width="192dp"
+        android:layout_height="142dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689"
+        app:srcCompat="@drawable/aviso" />
+
+    <Button
+        android:id="@+id/Bt_asistir_plan4"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#052A4C"
+        android:text="ASISTIR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731" />
 </androidx.constraintlayout.widget.ConstraintLayout>
