@@ -13,6 +13,30 @@
         android:theme="@style/Theme.TADEONOW"
         tools:targetApi="31">
         <activity
+            android:name=".Gym"
+            android:exported="false" />
+        <activity
+            android:name=".DisponibilidadBiblioteca"
+            android:exported="false" />
+        <activity
+            android:name=".PrestamosDeportes"
+            android:exported="false" />
+        <activity
+            android:name=".Salones"
+            android:exported="false" />
+        <activity
+            android:name=".PrestamosBiblioteca"
+            android:exported="false" />
+        <activity
+            android:name=".Biblioteca"
+            android:exported="false" />
+        <activity
+            android:name=".DisponibilidadDeportes"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".Disponibilidad"
             android:exported="false" />
         <activity

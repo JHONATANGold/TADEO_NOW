@@ -5,178 +5,164 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#133D60"
-    tools:context=".Page1">
-
-    <Button
-        android:id="@+id/Bt_plan1"
-        android:layout_width="333dp"
-        android:layout_height="175dp"
-        android:backgroundTint="#94A0A8"
-        android:gravity="left"
-        android:text="Plan #1"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:cornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.417" />
-
-    <TextView
-        android:id="@+id/Descr_plan1"
-        android:layout_width="125dp"
-        android:layout_height="83dp"
-        android:text="HORARIO: CONTENIDO: UBICACIÓN: ASISTENTES:"
-        android:textColor="#FFFFFF"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.244"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.435" />
+    tools:backgroundTint="#133D60"
+    tools:context=".Gym">>
 
     <ImageView
-        android:id="@+id/Imagen_plan1"
-        android:layout_width="192dp"
-        android:layout_height="143dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.89"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.411"
-        app:srcCompat="@drawable/aviso" />
-
-    <TextView
-        android:id="@+id/ViewBienvenidoUser"
-        android:layout_width="376dp"
-        android:layout_height="53dp"
-        android:background="#052A4C"
-        android:gravity="center"
-        android:text="Bienvenido User"
-        android:textColor="#FFFFFF"
-        android:textSize="40sp"
-        app:cornerRadius="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153" />
-
-    <TextView
-        android:id="@+id/ViewQueHarasHoy_page1"
-        android:layout_width="315dp"
-        android:layout_height="53dp"
-        android:gravity="center"
-        android:text="Qué Harás Hoy?"
-        android:textColor="#FFFFFF"
-        android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ViewBienvenidoUser"
-        app:layout_constraintVertical_bias="0.023" />
-
-    <Button
-        android:id="@+id/Bt_asistir_plan1"
-        android:layout_width="143dp"
-        android:layout_height="50dp"
-        android:backgroundTint="#052A4C"
-        android:text="ASISTIR"
-        android:textColor="#FFFFFF"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.513" />
-
-    <Button
-        android:id="@+id/Bt_plan2"
-        android:layout_width="333dp"
-        android:layout_height="175dp"
-        android:backgroundTint="#939FA7"
-        android:gravity="left"
-        android:text="Plan #2"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:cornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.753" />
-
-    <ImageView
-        android:id="@+id/imagen_plan2"
-        android:layout_width="192dp"
-        android:layout_height="143dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.731"
-        app:srcCompat="@drawable/aviso" />
-
-    <Button
-        android:id="@+id/Bt_asistir_plan2"
-        android:layout_width="143dp"
-        android:layout_height="50dp"
-        android:backgroundTint="#052A4C"
-        android:text="ASISTIR"
-        android:textColor="#FFFFFF"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.19"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.788" />
-
-    <TextView
-        android:id="@+id/Descr_plan2"
-        android:layout_width="125dp"
-        android:layout_height="83dp"
-        android:text="HORARIO: CONTENIDO: UBICACIÓN: ASISTENTES:"
-        android:textColor="#FFFFFF"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722" />
-
-    <Button
-        android:id="@+id/Bt_mostrarmas_page1"
-        android:layout_width="160dp"
-        android:layout_height="64dp"
-        android:backgroundTint="#052A4C"
-        android:text="MOSTRAR MÁS"
-        android:textColor="#FFFFFF"
-        android:textSize="15sp"
+        android:id="@+id/imageView"
+        android:layout_width="92dp"
+        android:layout_height="89dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.889" />
+        app:layout_constraintVertical_bias="0.003"
+        app:srcCompat="@drawable/logoutadeo" />
 
-    <ImageView
-        android:id="@+id/logo_utadeo"
-        android:layout_width="100dp"
-        android:layout_height="60dp"
+
+    <TextView
+        android:id="@+id/textDisponibilidad_biblio"
+        android:layout_width="315dp"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:text="GYM"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024"
-        app:srcCompat="@drawable/logo_utadeo" />
+        app:layout_constraintVertical_bias="0.182" />
+
+    <TextView
+        android:id="@+id/textView_biblio"
+        android:layout_width="338dp"
+        android:layout_height="152dp"
+        android:background="#94A0A8"
+        android:backgroundTint="#94A0A8"
+        android:gravity="center|top"
+        android:text="INSCRIPCION"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:cornerRadius="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <TextView
+        android:id="@+id/textViewBiblio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Documentos Requeridos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311"
+        tools:textColor="#FBFBFB" />
+
+
+    <TextView
+        android:id="@+id/textViewBiblio2"
+        android:layout_width="96dp"
+        android:layout_height="64dp"
+        android:text="Cedula                  Nombre        Correo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359"
+        tools:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bt_reservar_biblio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#133D60"
+        android:text="INSCRIBIRME"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <Button
+        android:id="@+id/bt_comentarios_biblio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#133D60"
+        android:text="COMENTARIOS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.694"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <TextView
+        android:id="@+id/textView2_biblio"
+        android:layout_width="340dp"
+        android:layout_height="130dp"
+        android:background="#94A0A8"
+        android:backgroundTint="#94A0A8"
+        android:gravity="center|top"
+        android:text="HORARIOS"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:cornerRadius="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599" />
+
+    <TextView
+        android:id="@+id/textViewBiblio3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HORA DE ENTRENO: 2:30 pm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553"
+        tools:textColor="#FBFBFB" />
+
+
+    <Button
+        android:id="@+id/bt_reservar_biblio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#133D60"
+        android:text="RESERVAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
+
+    <Button
+        android:id="@+id/bt_comentarios_biblio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#133D60"
+        android:text="COMENTARIOS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
 
     <ImageButton
         android:id="@+id/casa1"
@@ -229,5 +215,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.98"
         app:srcCompat="@drawable/salones" />
+
+    <ImageButton
+        android:id="@+id/atras1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/outline_arrow_back_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

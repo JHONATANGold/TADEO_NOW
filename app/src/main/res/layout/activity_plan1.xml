@@ -7,6 +7,19 @@
     tools:context=".Plan1"
     android:background="#133D60">
 
+    <ImageView
+        android:id="@+id/logo_utadeo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/logo_utadeo" />
+
+
     <Button
         android:id="@+id/Bt_plan1"
         android:layout_width="340dp"
@@ -19,10 +32,10 @@
         app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.787" />
+        app:layout_constraintVertical_bias="0.765" />
 
     <TextView
         android:id="@+id/comentarioplan1"
@@ -36,7 +49,7 @@
         app:layout_constraintHorizontal_bias="0.426"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.788" />
+        app:layout_constraintVertical_bias="0.764" />
 
     <Button
         android:id="@+id/descripcionplan1"
@@ -50,10 +63,10 @@
         app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.584" />
+        app:layout_constraintVertical_bias="0.561" />
 
     <Button
         android:id="@+id/Bt_asistir_plan1"
@@ -67,7 +80,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.895" />
+        app:layout_constraintVertical_bias="0.876" />
 
     <ImageView
         android:id="@+id/Imagen_aviso"
@@ -97,8 +110,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="315dp"
-        android:layout_height="53dp"
+        android:layout_width="202dp"
+        android:layout_height="61dp"
         android:gravity="center"
         android:text="Plan#1"
         android:textColor="#FFFFFF"
@@ -109,15 +122,69 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.148" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="92dp"
-        android:layout_height="89dp"
+    <ImageButton
+        android:id="@+id/casa1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.003"
-        app:srcCompat="@drawable/logoutadeo" />
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/casa" />
+
+    <ImageButton
+        android:id="@+id/deportes1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/deportes" />
+
+    <ImageButton
+        android:id="@+id/biblioteca1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/biblioteca" />
+
+    <ImageButton
+        android:id="@+id/salones1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/salones" />
+
+    <ImageButton
+        android:id="@+id/atras1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/outline_arrow_back_24" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

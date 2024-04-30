@@ -76,4 +76,56 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.182" />
 
+    <ImageButton
+        android:id="@+id/casa1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/casa" />
+
+    <ImageButton
+        android:id="@+id/deportes1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/deportes" />
+
+    <ImageButton
+        android:id="@+id/biblioteca1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/biblioteca" />
+
+    <ImageButton
+        android:id="@+id/salones1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/salones" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.763" />
 
     <Button
-        android:id="@+id/Bt_entrar"
+        android:id="@+id/signUpButton"
         android:layout_width="249dp"
         android:layout_height="67dp"
         android:backgroundTint="#052A4C"
@@ -66,7 +66,7 @@
         app:layout_constraintVertical_bias="0.198" />
 
     <EditText
-        android:id="@+id/cajacontraseñainiciarsesion"
+        android:id="@+id/providerTextView"
         android:layout_width="335dp"
         android:layout_height="56dp"
         android:background="#124A74"
@@ -82,22 +82,6 @@
         app:layout_constraintTop_toBottomOf="@+id/ViewIniciarSesión"
         app:layout_constraintVertical_bias="0.404" />
 
-    <EditText
-        android:id="@+id/cajacorreoiniciarsesion"
-        android:layout_width="335dp"
-        android:layout_height="56dp"
-        android:background="#124A74"
-        android:ems="10"
-        android:inputType="text"
-        android:text=" cabito@utadeo.edu.co"
-        android:textColor="#B4C1CC"
-        app:cornerRadius="100000dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/ViewIniciarSesión"
-        app:layout_constraintVertical_bias="0.272" />
 
     <TextView
         android:id="@+id/ViewIniciarSesión"
@@ -115,4 +99,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/emailTextView"
+        android:layout_width="335dp"
+        android:layout_height="56dp"
+        android:background="#124A74"
+        android:ems="10"
+        android:hint="cabito@utadeo.edu.co"
+        android:inputType="text"
+        android:text=" "
+        android:textColor="#B4C1CC"
+        android:textColorHint="#FFFFFF"
+        app:cornerRadius="100000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ViewIniciarSesión"
+        app:layout_constraintVertical_bias="0.272" />
 </androidx.constraintlayout.widget.ConstraintLayout>

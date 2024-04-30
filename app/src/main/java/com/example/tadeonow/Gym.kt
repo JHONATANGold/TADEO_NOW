@@ -3,18 +3,20 @@ package com.example.tadeonow
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
 
-class Plan1 : AppCompatActivity() {
+class Gym : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_plan1)
+        setContentView(R.layout.activity_gym)
 
         val deportesButton = findViewById<ImageButton>(R.id.deportes1)
         deportesButton.setOnClickListener {
             val intent = Intent(this, Deportes::class.java)
             startActivity(intent)
         }
+
         val bibliotecaButton = findViewById<ImageButton>(R.id.biblioteca1)
         bibliotecaButton.setOnClickListener {
             val intent = Intent(this, Biblioteca::class.java)
@@ -26,16 +28,17 @@ class Plan1 : AppCompatActivity() {
             val intent = Intent(this, Salones::class.java)
             startActivity(intent)
         }
-        val atrasButton = findViewById<ImageButton>(R.id.atras1)
 
-        atrasButton.setOnClickListener {
-            val intent = Intent(this, Page1::class.java)
-            startActivity(intent)
-        }
         val casaButton = findViewById<ImageButton>(R.id.casa1)
 
         casaButton.setOnClickListener {
             val intent = Intent(this, Page1::class.java)
+            startActivity(intent)
+        }
+        val atrasButton = findViewById<ImageButton>(R.id.atras1)
+
+        atrasButton.setOnClickListener {
+            val intent = Intent(this, Deportes::class.java)
             startActivity(intent)
         }
 

@@ -8,16 +8,16 @@
     tools:context=".RegisterActivity">
 
     <ImageView
-        android:id="@+id/LogoTadeo"
-        android:layout_width="141dp"
-        android:layout_height="104dp"
+        android:id="@+id/logo_utadeo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Bt_volver"
-        app:srcCompat="@drawable/logoutadeo"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957"
+        app:srcCompat="@drawable/logo_utadeo" />
 
     <Button
         android:id="@+id/Bt_volver"
@@ -36,11 +36,11 @@
         app:layout_constraintVertical_bias="0.433" />
 
     <Button
-        android:id="@+id/Bt_crear_cuenta"
+        android:id="@+id/SignUpButton"
         android:layout_width="218dp"
         android:layout_height="54dp"
         android:backgroundTint="#052A4C"
-        android:text="CREAR CUENTA"
+        android:text="REGISTRARSE"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:cornerRadius="11dp"

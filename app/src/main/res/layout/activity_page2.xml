@@ -8,21 +8,20 @@
     tools:context=".activity_page2">
 
     <ImageView
-        android:id="@+id/LogoTadeo_page2"
-        android:layout_width="92dp"
-        android:layout_height="89dp"
+        android:id="@+id/logo_utadeo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.006"
-        app:srcCompat="@drawable/logoutadeo" />
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/logo_utadeo" />
 
     <TextView
         android:id="@+id/ViewQueHarasHoy_page2"
-        android:layout_width="315dp"
-        android:layout_height="53dp"
+        android:layout_width="291dp"
+        android:layout_height="51dp"
         android:text="Qué Harás Hoy?"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
@@ -144,14 +143,68 @@
         app:layout_constraintVertical_bias="0.731" />
 
     <ImageButton
-        android:id="@+id/InicioPage2"
-        android:layout_width="63dp"
+        android:id="@+id/casa1"
+        android:layout_width="70dp"
         android:layout_height="60dp"
+        android:backgroundTint="#133D60"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932"
-        app:srcCompat="@drawable/house_solid__3_" />
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/casa" />
+
+    <ImageButton
+        android:id="@+id/deportes1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/deportes" />
+
+    <ImageButton
+        android:id="@+id/biblioteca1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/biblioteca" />
+
+    <ImageButton
+        android:id="@+id/salones1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/salones" />
+
+    <ImageButton
+        android:id="@+id/atras1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#133D60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/outline_arrow_back_24" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
